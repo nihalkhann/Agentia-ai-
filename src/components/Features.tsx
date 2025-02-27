@@ -30,7 +30,7 @@ const FeaturesSection: React.FC = () => {
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-40">
         {/* Heading */}
         <h2 className="text-[27px] md:text-5xl font-bold mb-4">
-          <span className="text-[#000000] md:text-transparent   bg-gradient-to-r from-[#8E37EA] via-[#4578F4] to-[#8E37EA]  bg-clip-text rounded-md ">Powered by Advanced AI</span>
+          <span className="text-transparent   bg-gradient-to-r from-[#8E37EA] via-[#4578F4] to-[#8E37EA]  bg-clip-text ">Powered by Advanced AI</span>
         </h2>
         <p className="text-gray-400 mb-12">
           Built on cutting-edge neural architectures

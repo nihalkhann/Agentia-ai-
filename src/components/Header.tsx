@@ -43,7 +43,7 @@ const Header: React.FC = () => {
         </ul>
 
         <Link
-          href="/launch"
+          href="/"
           className="hidden md:block bg-gradient-to-r from-purple-500 to-blue-600 text-white px-6 py-2 rounded-xl transition duration-300"
         >
           Launch Console
@@ -85,7 +85,7 @@ const Header: React.FC = () => {
                 Contact
               </Link>
               <Link
-                href="/launch"
+                href="/"
                 className="bg-gradient-to-r from-purple-500 to-blue-600 text-white px-6 py-2 rounded-xl transition duration-300"
               >
                 Launch Console

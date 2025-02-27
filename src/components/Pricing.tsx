@@ -55,7 +55,7 @@ const Pricing: React.FC = () => {
   return (
     <section id="pricing" className="bg-black text-white py-16">
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-40">
-        <h2 className="text-[#000000] md:text-transparent   text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-l from-purple-500  to-blue-500  bg-clip-text rounded-xl">
+        <h2 className="text-transparent   text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-l from-purple-500  to-blue-500  bg-clip-text ">
           Choose Your Plan
         </h2>
         <p className="text-gray-400 mb-12">
