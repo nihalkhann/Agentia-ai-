@@ -83,7 +83,7 @@ const Hero = () => {
         </div>
 
         <h1 className="text-[32px] md:text-6xl font-bold mb-12">
-          <span className="text-transparent   bg-gradient-to-r from-[#8E37EA] via-[#4578F4] to-[#8E37EA]  bg-clip-text ">Enterprise AI Agents</span>
+          <span className="text-purple-500 md:text-transparent md:bg-gradient-to-l md:from-purple-500 md:to-blue-500 md:bg-clip-text">Enterprise AI Agents</span>
           <br />
           <span className="text-white">for the Future</span>
         </h1>

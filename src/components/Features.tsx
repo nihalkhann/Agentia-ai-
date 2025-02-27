@@ -28,22 +28,22 @@ const FeaturesSection: React.FC = () => {
   return (
     <section id="technology" className="bg-gradient-to-t from-[#010002fc] to-[#0F0517] text-white py-16">
       <div className="container mx-auto text-center px-4 sm:px-6 lg:px-40">
-        {/* Heading */}
+        
         <h2 className="text-[27px] md:text-5xl font-bold mb-4">
-          <span className="text-transparent   bg-gradient-to-r from-[#8E37EA] via-[#4578F4] to-[#8E37EA]  bg-clip-text ">Powered by Advanced AI</span>
+          <span className="text-purple-500 md:text-transparent md:bg-gradient-to-l md:from-purple-500 md:to-blue-500 md:bg-clip-text">Powered by Advanced AI</span>
         </h2>
         <p className="text-gray-400 mb-12">
           Built on cutting-edge neural architectures
         </p>
 
-        {/* Feature Cards */}
+        
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
               className="group bg-gradient-to-b from-[#1b1a1ab1] p-4 sm:p-6 rounded-lg hover:border-[1px] border-purple-500 border-opacity-20 hover:scale-105 transition-all duration-700 hover:shadow-[0_0_13px_0px_theme(colors.purple.600)]"
             >
-              {/* Icon with Gradient Background */}
+        
               <div className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-4 flex items-center justify-center rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 group-hover:rotate-12 transition-transform duration-300 group-hover:scale-105">
                 {feature.icon}
               </div>
